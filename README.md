@@ -1,33 +1,35 @@
-# Future Minds RAG Chatbot
+🤖 Future Minds RAG Chatbot
 
-This is a multi-agent chatbot built in Python for the CodeJam Future Minds competition.
-It uses Gemini 1.5 Flash for Retrieval-Augmented Generation (RAG) to answer questions from a Grade 11 History textbook.
+A multi-agent GenAI chatbot built in Python for the CodeJam Future Minds competition.
+It uses Gemini 1.5 Flash for Retrieval-Augmented Generation (RAG) to answer questions from a Grade 11 History textbook. 📚✨
+🚀 Features
 
-## Features
-- Google Generative AI (Gemini)
-- FAISS Vector DB
-- Reference Extraction (Sections and Pages)
-- Batch query evaluation
+    🤖 Powered by Google Generative AI (Gemini)
 
-## Setup
+    📁 Integrated with FAISS Vector DB for efficient retrieval
 
-1. Create a virtual environment and install dependencies:
+    📎 Extracts references (📄 Sections & 📑 Pages) from textbook
 
-```bash
+    ⚡ Supports Batch Query Evaluation for multiple questions
+
+🛠️ Setup
+
+    📦 Create a virtual environment and install dependencies:
+
 pip install -r requirements.txt
-```
 
-2. Place the textbook PDF in `data/` folder.
+📚 Place your textbook PDF inside the data/ folder.
 
-3. Run the chatbot:
+🧠 Run the chatbot:
 
-```bash
-python src/rag_bot.py
-```
+    python src/rag_bot.py
 
-## Gemini API Key
-Your key is set directly in the `rag_bot.py` file as `GOOGLE_API_KEY`.
+🔑 Gemini API Key
 
-## Output
-- Generates a `lordofcode.csv` in the root directory.
-#
+Set your Gemini API key directly in rag_bot.py as:
+
+GOOGLE_API_KEY = "your-api-key-here"
+
+📤 Output
+
+    Generates a lordofcode.csv in the root directory with detailed results. 📊
